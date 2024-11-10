@@ -1,0 +1,8 @@
+.new-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    font-size: larger;
+    font-weight: 500;
+}
