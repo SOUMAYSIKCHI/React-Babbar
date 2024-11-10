@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    min-height: 100vh;
+}
+
+.card{
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .24);
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    width: 400px;
+}
+
+.btn-red {
+    background-color: #b4161b21;
+    border: 1px solid #b4161b;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 18px;
+    padding: 10px 80px;
+}
+.btn-red:hover{
+    background-color: #b4161b;
+}
+.read-more {
+    color: #12b0e8;
+    cursor: pointer;
+}
+
+.tour-price {
+    color: #1faa59;
+    font-size: 1.3rem;
+}
+
+.tour-heading {
+    font-size: 1.5rem;
+}
+.refresh {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.btn-white {
+    border: 1px solid #fff;
+    cursor: pointer;
+    margin-top: 18px;
+    padding: 10px 80px;
+    background-color: rgb(234, 221, 221);
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-white:hover{
+    background-color: #b4161b;
+    color: #fff;
+}
