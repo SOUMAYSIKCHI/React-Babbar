@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.read-more {
+    color: #12b0e8;
+    cursor: pointer;
+}
