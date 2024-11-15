@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* color-scheme: light dark; */
+  color: black;
+  background-color: #ffffff;
+}
+
+label{
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+fieldset{
+  font-weight: 600;
+}
+button{
+  background-color: rgb(30, 61, 239);
+  height: 40px;
+  width: 70px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+p{
+  font-weight: 400;
+}
+input,select{
+  background-color: #ffffff;
+  outline: none;
+  height: 40px;
+  font-size: 18px;
+  padding: 6px;
+  margin-bottom: 12px;
+  border: 2px solid rgb(65, 133, 242);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+ option {
+      background-color: white; /* Background color of the options */
+      color: black; /* Text color */
+      padding: 10px; /* Add padding inside options */
+    }
+
+    /* Highlight selected option (optional) */
+    select option:checked {
+      background-color: lightblue; /* Background color of the selected option */
+      color: rgb(255, 255, 255); /* Text color */
+    }
+    
+input:focus {
+  border-color: rgb(65, 133, 242); /* Change to your desired color */
+  outline: none; /* Optionally remove the default outline */
+}
+
+input[type="checkbox"] {
+  width: 20px; /* Controls checkbox size */
+  height: 20px; /* Controls checkbox size */
+  accent-color: green; /* Changes the checkmark color in modern browsers */
+  border: 2px solid rgb(55, 138, 248); /* Changes border color */
+  background-color: rgb(255, 255, 255); /* Sets background color */
+  padding: 5px; /* Limited padding control on default checkbox */
+}
+
