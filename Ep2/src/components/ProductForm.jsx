@@ -7,11 +7,9 @@ function ProductForm(props){
 
     function titleChangeHandler(event){
         setTitle(event.target.value)
-        // console.log(title)
     }
     function dateChangeHandler(event){
         setDate(event.target.value)
-        // console.log(date)
     }
 
     function submitHandler(event){

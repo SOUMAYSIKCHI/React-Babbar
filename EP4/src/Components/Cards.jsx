@@ -1,11 +1,8 @@
-import React from "react"
+import React, { useState } from "react"
 import Card from './Card';
 function Cards(props) {
     let courses = props.courses;
-    console.log(courses);
     let category = props.category;
-    console.log( courses[category]);
-    
     function getCourses() {
         if (category === "All") {
             let allcourses = []
