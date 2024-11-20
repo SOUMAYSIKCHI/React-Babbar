@@ -1,8 +1,8 @@
 import React from "react"
 
-function Home(){
+function Home({isLoggedIn}){
     return(
-        <div>Home</div>
+        <div className="h-full text-3xl flex justify-center items-center">Home</div>
     )
 }
 

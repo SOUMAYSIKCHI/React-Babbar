@@ -1,7 +1,7 @@
 import React from "react"
 function Dashboard(){
     return(
-        <div>Welcome to Study Notion</div>
+        <div className="h-full text-3xl flex justify-center items-center">Welcome to Study Notion</div>
     )
 }
 
